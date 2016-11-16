@@ -1,11 +1,3 @@
-//
-//  GameplayScene.swift
-//  Cowboy Runner
-//
-//  Created by Fahir Mehovic on 3/12/16.
-//  Copyright © 2016 Awesome Tuts. All rights reserved.
-//
-
 import SpriteKit
 
 class GameplayScene: SKScene, SKPhysicsContactDelegate {
@@ -22,11 +14,6 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     var isAlive = false;
     
     var spawner = Timer();
-    var counter = Timer();
-    
-    var scoreLabel = SKLabelNode();
-    
-    var score = Int(0);
     
     var pausePanel = SKSpriteNode();
     
@@ -36,6 +23,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         initialize();
     }
     
+    // The update function. Runs every frame.
     override func update(_ currentTime: TimeInterval) {
         
         if isAlive {
@@ -50,8 +38,10 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
+    // Event function called when user touches the screen
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
+        // for every touch made, issue series of checks to see where the user touched.
         for touch in touches {
             
             let location = touch.location(in: self);
@@ -78,16 +68,8 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
                 
                 spawner = Timer.scheduledTimer(timeInterval: TimeInterval(randomBetweenNumbers(2.5, secondNumber: 6)), target: self, selector: #selector(GameplayScene.spawnObstacles), userInfo: nil, repeats: true);
                 
-                counter = Timer.scheduledTimer(timeInterval: TimeInterval(1), target: self, selector: #selector(GameplayScene.incrementScore), userInfo: nil, repeats: true);
-                
                 Timer.scheduledTimer(timeInterval: TimeInterval(0.4), target: self, selector: #selector(GameplayScene.unPauseGame), userInfo: nil, repeats: false);
                 
-            }
-            
-            if atPoint(location).name == "Quit" {
-                let mainMenu = MainMenuScene(fileNamed: "MainMenuScene");
-                mainMenu!.scaleMode = .aspectFill;
-                self.view?.presentScene(mainMenu!, transition: SKTransition.doorway(withDuration: TimeInterval(1.5)));
             }
             
         }
@@ -123,16 +105,30 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         
         if firstBody.node?.name == "Player" && secondBody.node?.name == "Obstacle" {
             
+            let firstNode = contact.bodyA.node as! SKSpriteNode
+            let secondNode = contact.bodyB.node as! SKSpriteNode
+        
+            let contact_y = contact.contactPoint.y
+            
+            let target_1 = firstNode.position.y
+            let target_2 = secondNode.position.y
+            
+            let height1 = firstNode.size.height
+            let height2 = secondNode.size.height
+            
+            print("contact point: \(contact_y) ")
+            print("height1: \(height1) height2: \(height2)")
+            print("pos of 1st node: \(target_1) pos of 2nd node: \(target_2)")
+            
+//            if target_2 + contact_y <= height2 - height1 {
+//                // kill the player and prompt the buttons
+//                playerDied();
+//            }
+            
             if !canJump {
                 movePlayer = true;
                 playerOnObstacle = true;
             }
-            
-        }
-        
-        if firstBody.node?.name == "Player" && secondBody.node?.name == "Cactus" {
-            // kill the player and promt the buttons
-            playerDied();
         }
         
     }
@@ -166,11 +162,8 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         createBG();
         createGrounds();
         createObstales();
-        getLabel();
         
        spawner = Timer.scheduledTimer(timeInterval: TimeInterval(randomBetweenNumbers(2.5, secondNumber: 6)), target: self, selector: #selector(GameplayScene.spawnObstacles), userInfo: nil, repeats: true);
-        
-        counter = Timer.scheduledTimer(timeInterval: TimeInterval(1), target: self, selector: #selector(GameplayScene.incrementScore), userInfo: nil, repeats: true);
         
     }
     
@@ -186,7 +179,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
             let bg = SKSpriteNode(imageNamed: "BG");
             bg.name = "BG";
             bg.anchorPoint = CGPoint(x: 0.5, y: 0.5);
-            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0);
+            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 50);
             bg.zPosition = 0;
             self.addChild(bg);
         }
@@ -239,17 +232,13 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     
     func createObstales() {
         
-        for i in 0...5 {
+        // for i in 0 until the number of sprites (in this case there's only one...)
+        for i in 0..<1 {
             
             let obstacle = SKSpriteNode(imageNamed: "Obstacle \(i)");
             
-            if i == 0 {
-                obstacle.name = "Cactus";
-                obstacle.setScale(0.4);
-            } else {
-                obstacle.name = "Obstacle";
-                obstacle.setScale(0.5);
-            }
+            obstacle.name = "Obstacle";
+            obstacle.setScale(0.5);
             
             obstacle.anchorPoint = CGPoint(x: 0.5, y: 0.5);
             obstacle.zPosition = 1;
@@ -297,22 +286,22 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    func getLabel() {
-        scoreLabel = self.childNode(withName: "Score Label") as! SKLabelNode;
-        scoreLabel.text = "0M";
-    }
+//    func getLabel() {
+//        scoreLabel = self.childNode(withName: "Score Label") as! SKLabelNode;
+//        scoreLabel.text = "0M";
+//    }
     
-    func incrementScore() {
-        score += 1;
-        scoreLabel.text = "\(score)M"
-    }
+//    func incrementScore() {
+//        score += 1;
+//        scoreLabel.text = "\(score)M"
+//    }
     
     func createPausePanel() {
         
         gamePaused = true;
         
         spawner.invalidate();
-        counter.invalidate();
+//        counter.invalidate();
         
         self.scene?.isPaused = true;
         
@@ -345,11 +334,11 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
     
     func playerDied() {
         
-        let highscore = UserDefaults.standard.integer(forKey: "Highscore");
+        //let highscore = UserDefaults.standard.integer(forKey: "Highscore");
         
-        if highscore < score {
-            UserDefaults.standard.set(score, forKey: "Highscore");
-        }
+//        if highscore < score {
+//            UserDefaults.standard.set(score, forKey: "Highscore");
+//        }
         
         player.removeFromParent();
         
@@ -361,7 +350,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         }
         
         spawner.invalidate();
-        counter.invalidate();
+//        counter.invalidate();
         
         isAlive = false;
         
@@ -372,64 +361,27 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate {
         restart.anchorPoint = CGPoint(x: 0.5, y: 0.5);
         restart.position = CGPoint(x: -200, y: -150);
         restart.zPosition = 10;
-        restart.setScale(0);
+        restart.setScale(1);
         
         quit.name = "Quit";
         quit.anchorPoint = CGPoint(x: 0.5, y: 0.5);
         quit.position = CGPoint(x: 200, y: -150);
         quit.zPosition = 10;
-        quit.setScale(0);
+        quit.setScale(1);
         
-        let scaleUp = SKAction.scale(to: 1, duration: TimeInterval(0.5));
-        
-        restart.run(scaleUp);
-        quit.run(scaleUp);
+//        let scaleUp = SKAction.scale(to: 1, duration: TimeInterval(0.5));
+//        
+//        restart.run(scaleUp);
+//        quit.run(scaleUp);
         
         self.addChild(restart);
         self.addChild(quit);
         
     }
     
+    // This function unpauses the game
     func unPauseGame() {
         gamePaused = false;
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

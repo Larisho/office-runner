@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021900201DDC10A300692556 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900121DDC10A300692556 /* Player 1.png */; };
+		021900211DDC10A300692556 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900131DDC10A300692556 /* Player 2.png */; };
+		021900221DDC10A300692556 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900141DDC10A300692556 /* Player 3.png */; };
+		021900231DDC10A300692556 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900151DDC10A300692556 /* Player 4.png */; };
+		021900241DDC10A300692556 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900161DDC10A300692556 /* Player 5.png */; };
+		021900251DDC10A300692556 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900171DDC10A300692556 /* Player 6.png */; };
+		021900261DDC10A300692556 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900181DDC10A300692556 /* Player 7.png */; };
+		021900271DDC10A300692556 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 021900191DDC10A300692556 /* Player 8.png */; };
+		021900281DDC10A300692556 /* Player 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001A1DDC10A300692556 /* Player 9.png */; };
+		021900291DDC10A300692556 /* Player 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001B1DDC10A300692556 /* Player 10.png */; };
+		0219002A1DDC10A300692556 /* Player 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001C1DDC10A300692556 /* Player 11.png */; };
+		0219002B1DDC10A300692556 /* Player 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001D1DDC10A300692556 /* Player 12.png */; };
+		0219002C1DDC10A300692556 /* Player 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001E1DDC10A300692556 /* Player 13.png */; };
+		0219002D1DDC10A300692556 /* Player 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0219001F1DDC10A300692556 /* Player 14.png */; };
 		0C9BCAD91C958EB900948288 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BCAD81C958EB900948288 /* MainMenuScene.sks */; };
 		0C9BCADB1C958EE600948288 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BCADA1C958EE600948288 /* MainMenuScene.swift */; };
 		0CA6254B1C93E40800001986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6254A1C93E40800001986 /* AppDelegate.swift */; };
@@ -14,21 +28,7 @@
 		0CA625541C93E40800001986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625521C93E40800001986 /* Main.storyboard */; };
 		0CA625561C93E40800001986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625551C93E40800001986 /* Assets.xcassets */; };
 		0CA625591C93E40800001986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625571C93E40800001986 /* LaunchScreen.storyboard */; };
-		0CA625641C93E40800001986 /* Cowboy_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */; };
-		0CA6256F1C93E40800001986 /* Cowboy_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */; };
-		0CA6258D1C93E9D500001986 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625821C93E9D500001986 /* Player 1.png */; };
-		0CA6258E1C93E9D500001986 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625831C93E9D500001986 /* Player 2.png */; };
-		0CA6258F1C93E9D500001986 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625841C93E9D500001986 /* Player 3.png */; };
-		0CA625901C93E9D500001986 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625851C93E9D500001986 /* Player 4.png */; };
-		0CA625911C93E9D500001986 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625861C93E9D500001986 /* Player 5.png */; };
-		0CA625921C93E9D500001986 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625871C93E9D500001986 /* Player 6.png */; };
-		0CA625931C93E9D500001986 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625881C93E9D500001986 /* Player 7.png */; };
-		0CA625941C93E9D500001986 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625891C93E9D500001986 /* Player 8.png */; };
-		0CA625951C93E9D500001986 /* Player 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6258A1C93E9D500001986 /* Player 9.png */; };
-		0CA625961C93E9D500001986 /* Player 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6258B1C93E9D500001986 /* Player 10.png */; };
-		0CA625971C93E9D500001986 /* Player 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6258C1C93E9D500001986 /* Player 11.png */; };
 		0CA6259A1C93E9F600001986 /* Jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625991C93E9F600001986 /* Jump.wav */; };
-		0CA6259D1C93EA2200001986 /* RosewoodStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6259C1C93EA2200001986 /* RosewoodStd-Regular.otf */; };
 		0CA625A11C93EF0B00001986 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625A01C93EF0B00001986 /* GameplayScene.sks */; };
 		0CA625A31C93EF7500001986 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA625A21C93EF7500001986 /* GameplayScene.swift */; };
 		0CA625A71C94137B00001986 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA625A61C94137B00001986 /* Player.swift */; };
@@ -52,34 +52,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021900121DDC10A300692556 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		021900131DDC10A300692556 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		021900141DDC10A300692556 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		021900151DDC10A300692556 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		021900161DDC10A300692556 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		021900171DDC10A300692556 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		021900181DDC10A300692556 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		021900191DDC10A300692556 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
+		0219001A1DDC10A300692556 /* Player 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 9.png"; sourceTree = "<group>"; };
+		0219001B1DDC10A300692556 /* Player 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 10.png"; sourceTree = "<group>"; };
+		0219001C1DDC10A300692556 /* Player 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 11.png"; sourceTree = "<group>"; };
+		0219001D1DDC10A300692556 /* Player 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 12.png"; sourceTree = "<group>"; };
+		0219001E1DDC10A300692556 /* Player 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 13.png"; sourceTree = "<group>"; };
+		0219001F1DDC10A300692556 /* Player 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 14.png"; sourceTree = "<group>"; };
 		0C9BCAD81C958EB900948288 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		0C9BCADA1C958EE600948288 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
-		0CA625471C93E40800001986 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA625471C93E40800001986 /* Office Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Office Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA6254A1C93E40800001986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA625501C93E40800001986 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0CA625531C93E40800001986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CA625551C93E40800001986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA625581C93E40800001986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA6255A1C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowboy_RunnerTests.swift; sourceTree = "<group>"; };
-		0CA625651C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowboy_RunnerUITests.swift; sourceTree = "<group>"; };
-		0CA625701C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CA625821C93E9D500001986 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
-		0CA625831C93E9D500001986 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
-		0CA625841C93E9D500001986 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
-		0CA625851C93E9D500001986 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
-		0CA625861C93E9D500001986 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
-		0CA625871C93E9D500001986 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
-		0CA625881C93E9D500001986 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
-		0CA625891C93E9D500001986 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
-		0CA6258A1C93E9D500001986 /* Player 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 9.png"; sourceTree = "<group>"; };
-		0CA6258B1C93E9D500001986 /* Player 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 10.png"; sourceTree = "<group>"; };
-		0CA6258C1C93E9D500001986 /* Player 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 11.png"; sourceTree = "<group>"; };
+		0CA6255F1C93E40800001986 /* Office RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6256A1C93E40800001986 /* Office RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA625991C93E9F600001986 /* Jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jump.wav; sourceTree = "<group>"; };
-		0CA6259C1C93EA2200001986 /* RosewoodStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RosewoodStd-Regular.otf"; sourceTree = "<group>"; };
 		0CA625A01C93EF0B00001986 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 		0CA625A21C93EF7500001986 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		0CA625A61C94137B00001986 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -113,12 +111,10 @@
 		0CA6253E1C93E40800001986 = {
 			isa = PBXGroup;
 			children = (
-				0CA625491C93E40800001986 /* Cowboy Runner */,
+				0CA625491C93E40800001986 /* Office Runner */,
 				0CA6259F1C93EEE100001986 /* Classes */,
 				0CA6259E1C93EED500001986 /* Scenes */,
 				0CA625801C93E99A00001986 /* Assets */,
-				0CA625621C93E40800001986 /* Cowboy RunnerTests */,
-				0CA6256D1C93E40800001986 /* Cowboy RunnerUITests */,
 				0CA625481C93E40800001986 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,14 +122,14 @@
 		0CA625481C93E40800001986 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CA625471C93E40800001986 /* Cowboy Runner.app */,
-				0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */,
-				0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */,
+				0CA625471C93E40800001986 /* Office Runner.app */,
+				0CA6255F1C93E40800001986 /* Office RunnerTests.xctest */,
+				0CA6256A1C93E40800001986 /* Office RunnerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CA625491C93E40800001986 /* Cowboy Runner */ = {
+		0CA625491C93E40800001986 /* Office Runner */ = {
 			isa = PBXGroup;
 			children = (
 				0CA6254A1C93E40800001986 /* AppDelegate.swift */,
@@ -143,31 +139,13 @@
 				0CA625571C93E40800001986 /* LaunchScreen.storyboard */,
 				0CA6255A1C93E40800001986 /* Info.plist */,
 			);
+			name = "Office Runner";
 			path = "Cowboy Runner";
-			sourceTree = "<group>";
-		};
-		0CA625621C93E40800001986 /* Cowboy RunnerTests */ = {
-			isa = PBXGroup;
-			children = (
-				0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */,
-				0CA625651C93E40800001986 /* Info.plist */,
-			);
-			path = "Cowboy RunnerTests";
-			sourceTree = "<group>";
-		};
-		0CA6256D1C93E40800001986 /* Cowboy RunnerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */,
-				0CA625701C93E40800001986 /* Info.plist */,
-			);
-			path = "Cowboy RunnerUITests";
 			sourceTree = "<group>";
 		};
 		0CA625801C93E99A00001986 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0CA6259B1C93E9FB00001986 /* Fonts */,
 				0CA625981C93E9E800001986 /* Sounds */,
 				0CA625811C93E9B100001986 /* Player */,
 			);
@@ -177,17 +155,20 @@
 		0CA625811C93E9B100001986 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				0CA625821C93E9D500001986 /* Player 1.png */,
-				0CA625831C93E9D500001986 /* Player 2.png */,
-				0CA625841C93E9D500001986 /* Player 3.png */,
-				0CA625851C93E9D500001986 /* Player 4.png */,
-				0CA625861C93E9D500001986 /* Player 5.png */,
-				0CA625871C93E9D500001986 /* Player 6.png */,
-				0CA625881C93E9D500001986 /* Player 7.png */,
-				0CA625891C93E9D500001986 /* Player 8.png */,
-				0CA6258A1C93E9D500001986 /* Player 9.png */,
-				0CA6258B1C93E9D500001986 /* Player 10.png */,
-				0CA6258C1C93E9D500001986 /* Player 11.png */,
+				021900121DDC10A300692556 /* Player 1.png */,
+				021900131DDC10A300692556 /* Player 2.png */,
+				021900141DDC10A300692556 /* Player 3.png */,
+				021900151DDC10A300692556 /* Player 4.png */,
+				021900161DDC10A300692556 /* Player 5.png */,
+				021900171DDC10A300692556 /* Player 6.png */,
+				021900181DDC10A300692556 /* Player 7.png */,
+				021900191DDC10A300692556 /* Player 8.png */,
+				0219001A1DDC10A300692556 /* Player 9.png */,
+				0219001B1DDC10A300692556 /* Player 10.png */,
+				0219001C1DDC10A300692556 /* Player 11.png */,
+				0219001D1DDC10A300692556 /* Player 12.png */,
+				0219001E1DDC10A300692556 /* Player 13.png */,
+				0219001F1DDC10A300692556 /* Player 14.png */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -198,14 +179,6 @@
 				0CA625991C93E9F600001986 /* Jump.wav */,
 			);
 			name = Sounds;
-			sourceTree = "<group>";
-		};
-		0CA6259B1C93E9FB00001986 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				0CA6259C1C93EA2200001986 /* RosewoodStd-Regular.otf */,
-			);
-			name = Fonts;
 			sourceTree = "<group>";
 		};
 		0CA6259E1C93EED500001986 /* Scenes */ = {
@@ -246,9 +219,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CA625461C93E40800001986 /* Cowboy Runner */ = {
+		0CA625461C93E40800001986 /* Office Runner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */;
+			buildConfigurationList = 0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Office Runner" */;
 			buildPhases = (
 				0CA625431C93E40800001986 /* Sources */,
 				0CA625441C93E40800001986 /* Frameworks */,
@@ -258,14 +231,14 @@
 			);
 			dependencies = (
 			);
-			name = "Cowboy Runner";
+			name = "Office Runner";
 			productName = "Cowboy Runner";
-			productReference = 0CA625471C93E40800001986 /* Cowboy Runner.app */;
+			productReference = 0CA625471C93E40800001986 /* Office Runner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0CA6255E1C93E40800001986 /* Cowboy RunnerTests */ = {
+		0CA6255E1C93E40800001986 /* Office RunnerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */;
+			buildConfigurationList = 0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Office RunnerTests" */;
 			buildPhases = (
 				0CA6255B1C93E40800001986 /* Sources */,
 				0CA6255C1C93E40800001986 /* Frameworks */,
@@ -276,14 +249,14 @@
 			dependencies = (
 				0CA625611C93E40800001986 /* PBXTargetDependency */,
 			);
-			name = "Cowboy RunnerTests";
+			name = "Office RunnerTests";
 			productName = "Cowboy RunnerTests";
-			productReference = 0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */;
+			productReference = 0CA6255F1C93E40800001986 /* Office RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0CA625691C93E40800001986 /* Cowboy RunnerUITests */ = {
+		0CA625691C93E40800001986 /* Office RunnerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */;
+			buildConfigurationList = 0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Office RunnerUITests" */;
 			buildPhases = (
 				0CA625661C93E40800001986 /* Sources */,
 				0CA625671C93E40800001986 /* Frameworks */,
@@ -294,9 +267,9 @@
 			dependencies = (
 				0CA6256C1C93E40800001986 /* PBXTargetDependency */,
 			);
-			name = "Cowboy RunnerUITests";
+			name = "Office RunnerUITests";
 			productName = "Cowboy RunnerUITests";
-			productReference = 0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */;
+			productReference = 0CA6256A1C93E40800001986 /* Office RunnerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +280,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Awesome Tuts";
+				ORGANIZATIONNAME = TamiesClass;
 				TargetAttributes = {
 					0CA625461C93E40800001986 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -325,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CA625421C93E40800001986 /* Build configuration list for PBXProject "Cowboy Runner" */;
+			buildConfigurationList = 0CA625421C93E40800001986 /* Build configuration list for PBXProject "Office Runner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -338,9 +311,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CA625461C93E40800001986 /* Cowboy Runner */,
-				0CA6255E1C93E40800001986 /* Cowboy RunnerTests */,
-				0CA625691C93E40800001986 /* Cowboy RunnerUITests */,
+				0CA625461C93E40800001986 /* Office Runner */,
+				0CA6255E1C93E40800001986 /* Office RunnerTests */,
+				0CA625691C93E40800001986 /* Office RunnerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -350,24 +323,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0219002B1DDC10A300692556 /* Player 12.png in Resources */,
 				0CA6259A1C93E9F600001986 /* Jump.wav in Resources */,
-				0CA625901C93E9D500001986 /* Player 4.png in Resources */,
-				0CA6259D1C93EA2200001986 /* RosewoodStd-Regular.otf in Resources */,
-				0CA625921C93E9D500001986 /* Player 6.png in Resources */,
 				0CA625591C93E40800001986 /* LaunchScreen.storyboard in Resources */,
-				0CA625961C93E9D500001986 /* Player 10.png in Resources */,
-				0CA6258E1C93E9D500001986 /* Player 2.png in Resources */,
-				0CA625951C93E9D500001986 /* Player 9.png in Resources */,
-				0CA6258D1C93E9D500001986 /* Player 1.png in Resources */,
+				021900281DDC10A300692556 /* Player 9.png in Resources */,
+				021900251DDC10A300692556 /* Player 6.png in Resources */,
+				021900261DDC10A300692556 /* Player 7.png in Resources */,
+				021900231DDC10A300692556 /* Player 4.png in Resources */,
 				0CA625A11C93EF0B00001986 /* GameplayScene.sks in Resources */,
+				021900271DDC10A300692556 /* Player 8.png in Resources */,
 				0C9BCAD91C958EB900948288 /* MainMenuScene.sks in Resources */,
 				0CA625561C93E40800001986 /* Assets.xcassets in Resources */,
-				0CA625971C93E9D500001986 /* Player 11.png in Resources */,
-				0CA625931C93E9D500001986 /* Player 7.png in Resources */,
-				0CA625941C93E9D500001986 /* Player 8.png in Resources */,
-				0CA6258F1C93E9D500001986 /* Player 3.png in Resources */,
+				021900241DDC10A300692556 /* Player 5.png in Resources */,
 				0CA625541C93E40800001986 /* Main.storyboard in Resources */,
-				0CA625911C93E9D500001986 /* Player 5.png in Resources */,
+				0219002A1DDC10A300692556 /* Player 11.png in Resources */,
+				0219002C1DDC10A300692556 /* Player 13.png in Resources */,
+				021900211DDC10A300692556 /* Player 2.png in Resources */,
+				021900201DDC10A300692556 /* Player 1.png in Resources */,
+				021900291DDC10A300692556 /* Player 10.png in Resources */,
+				0219002D1DDC10A300692556 /* Player 14.png in Resources */,
+				021900221DDC10A300692556 /* Player 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +379,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA625641C93E40800001986 /* Cowboy_RunnerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA6256F1C93E40800001986 /* Cowboy_RunnerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,12 +394,12 @@
 /* Begin PBXTargetDependency section */
 		0CA625611C93E40800001986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CA625461C93E40800001986 /* Cowboy Runner */;
+			target = 0CA625461C93E40800001986 /* Office Runner */;
 			targetProxy = 0CA625601C93E40800001986 /* PBXContainerItemProxy */;
 		};
 		0CA6256C1C93E40800001986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CA625461C93E40800001986 /* Cowboy Runner */;
+			target = 0CA625461C93E40800001986 /* Office Runner */;
 			targetProxy = 0CA6256B1C93E40800001986 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -543,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TamiesClass.officerunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -555,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TamiesClass.officerunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -571,7 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office Runner.app/Office Runner";
 			};
 			name = Debug;
 		};
@@ -584,7 +557,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office Runner.app/Office Runner";
 			};
 			name = Release;
 		};
@@ -618,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CA625421C93E40800001986 /* Build configuration list for PBXProject "Cowboy Runner" */ = {
+		0CA625421C93E40800001986 /* Build configuration list for PBXProject "Office Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CA625711C93E40800001986 /* Debug */,
@@ -627,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */ = {
+		0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Office Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CA625741C93E40800001986 /* Debug */,
@@ -636,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */ = {
+		0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Office RunnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CA625771C93E40800001986 /* Debug */,
@@ -645,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */ = {
+		0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Office RunnerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CA6257A1C93E40800001986 /* Debug */,

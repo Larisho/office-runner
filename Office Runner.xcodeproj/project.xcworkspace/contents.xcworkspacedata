@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Cowboy Runner.xcodeproj">
+      location = "self:/Users/Gab/Documents/Cowboy Runner/Office Runner.xcodeproj">
    </FileRef>
 </Workspace>

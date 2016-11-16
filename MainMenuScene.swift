@@ -1,11 +1,3 @@
-//
-//  MainMenuScene.swift
-//  Cowboy Runner
-//
-//  Created by Fahir Mehovic on 3/13/16.
-//  Copyright © 2016 Awesome Tuts. All rights reserved.
-//
-
 import SpriteKit
 
 class MainMenuScene: SKScene {
@@ -58,7 +50,7 @@ class MainMenuScene: SKScene {
             let bg = SKSpriteNode(imageNamed: "BG");
             bg.name = "BG";
             bg.anchorPoint = CGPoint(x: 0.5, y: 0.5);
-            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0);
+            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 50);
             bg.zPosition = 0;
             self.addChild(bg);
         }
@@ -107,15 +99,14 @@ class MainMenuScene: SKScene {
     
     func getButtons() {
         playBtn = self.childNode(withName: "Play") as! SKSpriteNode;
-        scoreBtn = self.childNode(withName: "Score") as! SKSpriteNode;
     }
     
     func getLabel() {
         title = self.childNode(withName: "Title") as! SKLabelNode;
         
-        title.fontName = "RosewoodStd-Regular";
+        title.fontName = "Helvetica";
         title.fontSize = 120;
-        title.text = "Cowboy Runner";
+        title.text = "OfficeRunner";
         
         title.zPosition = 5;
         
@@ -141,40 +132,3 @@ class MainMenuScene: SKScene {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
